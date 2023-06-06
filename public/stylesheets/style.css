@@ -17545,7 +17545,6 @@ header .main-nav .current-menu-item>a {
 4.29 FASHION STORE
 ----------------------------------------- */
 .fashion-store {
-  background: url("../images/home-bg-1.jpg") no-repeat center center / cover;
   min-height: 220px;
   position: relative;
   overflow: hidden;
@@ -17593,7 +17592,6 @@ header .main-nav .current-menu-item>a {
 4.30 DAY OFF
 ----------------------------------------- */
 .day-off {
-  background: url("../images/home-bg-2.jpg") no-repeat center center / cover;
   min-height: 220px;
   text-align: center;
   position: relative;
@@ -17602,11 +17600,6 @@ header .main-nav .current-menu-item>a {
 
 .day-off a {
   color: #fff;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
 }
 
 .day-off a:hover .overlay,
