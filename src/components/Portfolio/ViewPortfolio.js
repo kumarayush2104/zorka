@@ -19,6 +19,8 @@ export default function ViewPortfolio(props) {
         <div className="main">
             <div className="main-content">
                 <div className="container">
+                    
+                    {/* Current Portfolio Details Start */}
                     <div className="portfolio-details">
                         <div className="row">
                             <div className="col-md-6">
@@ -35,10 +37,16 @@ export default function ViewPortfolio(props) {
                             </div>
                         </div>
                     </div>
+                    {/* Current Portfolio Details End */}
+
+                    {/* Navigation Button Start */}
                     <div className="portfolia-nav">
                         <Link to={`/Portfolio/${props.previousId}`} className="prev"><i className="fa fa-angle-left" /> THE BLUE A</Link>
                         <Link to={`/Portfolio/${props.nextId}`} className="next">THE LONELY CHAIR IN THE WORLD <i className="fa fa-angle-right" /></Link>
                     </div>
+                    {/* Navigation Button End */}
+
+                    {/* Other Portfolios Section Start */}
                     <div className="text-center">
                         <div className="row">
                             <ViewPortfolioCard image={CardImage1} imageThumb={CardImage1} title={"THE BLUE A"} content={"PRINT, BRANDING"} />
@@ -47,6 +55,8 @@ export default function ViewPortfolio(props) {
                             <ViewPortfolioCard image={CardImage4} imageThumb={CardImage4} title={"THE LONELY CHAIR IN THE WORLD"} content={"INTERIOR"} />
                         </div>
                     </div>
+                    {/* Other Portfolio Section End */}
+
                 </div>
             </div>
         </div>
